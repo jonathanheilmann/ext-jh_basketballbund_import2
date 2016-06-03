@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-08-13T11:44:01Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="ce_uid.description" xml:space="preserve">
+			<source>Uid of content element the data belongs to</source>
+		</trans-unit>
+		<trans-unit id="data.description" xml:space="preserve">
+			<source>The cached data</source>
+		</trans-unit>
+		<trans-unit id="settings_md5.description" xml:space="preserve">
+			<source>Md5 of plugin-settings</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

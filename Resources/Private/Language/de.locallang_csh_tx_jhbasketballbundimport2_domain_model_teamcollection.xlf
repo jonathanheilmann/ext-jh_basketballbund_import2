@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-08-13T11:42:57Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="teams.description" approved="yes" xml:space="preserve">
+			<source>Teams</source>
+			<target>Teams</target>
+		</trans-unit>
+		<trans-unit id="title.description" approved="yes" xml:space="preserve">
+			<source>Title of teamcollection</source>
+			<target>Titel der Teamsammlung</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

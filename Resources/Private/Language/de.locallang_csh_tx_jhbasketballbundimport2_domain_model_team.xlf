@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-08-13T11:44:59Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="league.description" approved="yes" xml:space="preserve">
+			<source>Number of league the team participates</source>
+			<target>Nummer der Liga in welcher das Team spielt</target>
+		</trans-unit>
+		<trans-unit id="team.description" approved="yes" xml:space="preserve">
+			<source>Readable name of team</source>
+			<target>Lesbarer Name des Teams</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-08-13T11:42:38Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache" approved="yes" xml:space="preserve">
+			<source>Cache</source>
+			<target>Cache</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache.ce_uid" approved="yes" xml:space="preserve">
+			<source>ContentElement Uid</source>
+			<target>ContentElement Uid</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache.data" approved="yes" xml:space="preserve">
+			<source>Data</source>
+			<target>Datum</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache.settings_md5" approved="yes" xml:space="preserve">
+			<source>Settings Md5</source>
+			<target>Settings Md5</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_team" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_team.league" approved="yes" xml:space="preserve">
+			<source>League</source>
+			<target>Liga</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_team.team" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_teamcollection" approved="yes" xml:space="preserve">
+			<source>Teamcollection</source>
+			<target>Teamsammlung</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_teamcollection.teams" approved="yes" xml:space="preserve">
+			<source>Teams</source>
+			<target>Teams</target>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_teamcollection.title" approved="yes" xml:space="preserve">
+			<source>Title</source>
+			<target>Titel</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

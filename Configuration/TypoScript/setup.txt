@@ -1,0 +1,78 @@
+plugin.tx_jhbasketballbundimport2 {
+	view {
+		templateRootPath = {$plugin.tx_jhbasketballbundimport2.view.templateRootPath}
+		partialRootPath = {$plugin.tx_jhbasketballbundimport2.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_jhbasketballbundimport2.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_jhbasketballbundimport2.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+		storagefolder = {$plugin.tx_jhbasketballbundimport2.settings.storagefolder}
+
+		cachelifetime = {$plugin.tx_jhbasketballbundimport2.settings.cachelifetime}
+
+		displayborder = {$plugin.tx_jhbasketballbundimport2.settings.displayborder}
+		allowbr = {$plugin.tx_jhbasketballbundimport2.settings.allowbr}
+		stressteam = {$plugin.tx_jhbasketballbundimport2.settings.stressteam}
+	}
+}
+
+# Add jQuery
+page.includeJS {
+  tx_jhbasketballbundimport10 = {$plugin.tx_jhbasketballbundimport2.settings.jQuery}
+  tx_jhbasketballbundimport10.if.isTrue = {$plugin.tx_jhbasketballbundimport2.settings.jQuery}
+}
+
+plugin.tx_jhbasketballbundimport2._CSS_DEFAULT_STYLE (
+	.tx-jh-basketballbund-import-2{
+		margin-bottom: 12px;
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	.tx-jh-basketballbund-import-2 table {
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+	.tx-jh-basketballbund-import-2 table th,
+	.tx-jh-basketballbund-import-2 table td {
+		padding: 2px 4px 2px 4px;
+	}
+
+	.tx-jh-basketballbund-import-2 table th {
+		font-weight: normal;
+		background-color: #003399;
+		color: #ffffff;
+	}
+
+	.tx-jh-basketballbund-import-2 table td.stressed {
+		font-weight: bold;
+	}
+
+	.tx-jh-basketballbund-import-2 .source {
+		float: right;
+		clear: both;
+		font-size: 80%;
+	}
+
+	.tx-jh-basketballbund-import-2 .update {
+		float: right;
+		clear: both;
+		font-size: 80%;
+	}
+
+	.tx-jh-basketballbund-import-2 .checkbox_displayall {
+		float: right;
+		clear: both;
+	}
+
+	.tx-jh-basketballbund-import-2 .strike {
+		text-decoration: line-through;
+	}
+)

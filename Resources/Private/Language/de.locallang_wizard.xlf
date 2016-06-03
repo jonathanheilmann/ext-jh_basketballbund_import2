@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-08-13T16:18:45Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="team.description" approved="yes" xml:space="preserve">
+			<source>Import tables, results, playing schedules or statistics from basketball-bund.net.</source>
+			<target>Importiere Tabelle, Ergebnisse, Spielpläne oder Statistiken von basketball-bund.net.</target>
+		</trans-unit>
+		<trans-unit id="team.title" approved="yes" xml:space="preserve">
+			<source>basketball-bund.net - Team</source>
+			<target>basketball-bund.net - Team</target>
+		</trans-unit>
+		<trans-unit id="teamcollection.description" approved="yes" xml:space="preserve">
+			<source>Display the last results of a teamcollection in one table.</source>
+			<target>Zeige die letzten Ergebnisse einer Mannschaftssammlung in einer Tabelle.</target>
+		</trans-unit>
+		<trans-unit id="teamcollection.title" approved="yes" xml:space="preserve">
+			<source>basketball-bund.net - Teamcollection</source>
+			<target>basketball-bund.net - Teamcollection</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

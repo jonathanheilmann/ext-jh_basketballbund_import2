@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-08-13T11:42:38Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache" xml:space="preserve">
+			<source>Cache</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache.ce_uid" xml:space="preserve">
+			<source>ContentElement Uid</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache.data" xml:space="preserve">
+			<source>Data</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_cache.settings_md5" xml:space="preserve">
+			<source>Settings Md5</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_team" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_team.league" xml:space="preserve">
+			<source>League</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_team.team" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_teamcollection" xml:space="preserve">
+			<source>Teamcollection</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_teamcollection.teams" xml:space="preserve">
+			<source>Teams</source>
+		</trans-unit>
+		<trans-unit id="tx_jhbasketballbundimport2_domain_model_teamcollection.title" xml:space="preserve">
+			<source>Title</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

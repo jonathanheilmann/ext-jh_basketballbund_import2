@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-08-14T17:30:47Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="displayteam" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="displayteamcollection" approved="yes" xml:space="preserve">
+			<source>Teamcollection:</source>
+			<target>Teamsammlung:</target>
+		</trans-unit>
+		<trans-unit id="lastUpdate" approved="yes" xml:space="preserve">
+			<source>Last update:</source>
+			<target>Letzte Aktualisierung:</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows" approved="yes" xml:space="preserve">
+			<source>Columns:</source>
+			<target>Spalten:</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.date" approved="yes" xml:space="preserve">
+			<source>Date</source>
+			<target>Datum</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.details" approved="yes" xml:space="preserve">
+			<source>Details</source>
+			<target>Details</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.endresult" approved="yes" xml:space="preserve">
+			<source>Endresult</source>
+			<target>Ergebnis</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.guest" approved="yes" xml:space="preserve">
+			<source>Guest</source>
+			<target>Gast</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.home" approved="yes" xml:space="preserve">
+			<source>Home</source>
+			<target>Heim</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.matchday" approved="yes" xml:space="preserve">
+			<source>Matchday</source>
+			<target>Spieltag</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.number" approved="yes" xml:space="preserve">
+			<source>Number</source>
+			<target>Nummer</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.team" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection" approved="yes" xml:space="preserve">
+			<source>Select content</source>
+			<target>Inhalt wählen</target>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection.all" approved="yes" xml:space="preserve">
+			<source>All teams</source>
+			<target>Alle Teams</target>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection.onlyownteam" approved="yes" xml:space="preserve">
+			<source>Only own team</source>
+			<target>Nur eigenes Team</target>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection.otherteamsbyjq" approved="yes" xml:space="preserve">
+			<source>Other teams by checkbox</source>
+			<target>Andere Teams durch Checkbox</target>
+		</trans-unit>
+		<trans-unit id="sdetails.title" approved="yes" xml:space="preserve">
+			<source>Details</source>
+			<target>Details</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder" approved="yes" xml:space="preserve">
+			<source>Border</source>
+			<target>Rahmen</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.bytyposcript" approved="yes" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+			<target>Definiert durch Typoscript</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.no" approved="yes" xml:space="preserve">
+			<source>No</source>
+			<target>Nein</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.yes" approved="yes" xml:space="preserve">
+			<source>Yes</source>
+			<target>Ja</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam.bytyposcript" approved="yes" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+			<target>Definiert durch TypoScript</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam.local" approved="yes" xml:space="preserve">
+			<source>Define local</source>
+			<target>Lokal definieren</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam.local.input" approved="yes" xml:space="preserve">
+			<source>Team:</source>
+			<target>Team:</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr" approved="yes" xml:space="preserve">
+			<source>Allow linebreak in table-rows</source>
+			<target>Zeilenumbruch in Tabellen-Zeile erlauben</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.bytyposcript" approved="yes" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+			<target>Definiert durch TypoScript</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.no" approved="yes" xml:space="preserve">
+			<source>No</source>
+			<target>Nein</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.yes" approved="yes" xml:space="preserve">
+			<source>Yes</source>
+			<target>Ja</target>
+		</trans-unit>
+		<trans-unit id="slayout.title" approved="yes" xml:space="preserve">
+			<source>Layout</source>
+			<target>Layout</target>
+		</trans-unit>
+		<trans-unit id="source" approved="yes" xml:space="preserve">
+			<source>Source:</source>
+			<target>Quelle:</target>
+		</trans-unit>
+		<trans-unit id="title" approved="yes" xml:space="preserve">
+			<source>Options</source>
+			<target>Optionen</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

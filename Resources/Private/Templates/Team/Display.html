@@ -1,0 +1,186 @@
+{namespace jh=Heilmann\JhBasketballbundImport2\ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<f:if condition="{0:settings.displaycontent} == {0:'table'}">
+	<!-- table -->
+	<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse"><tbody>
+	<f:for each="{content.data}" as="row" iteration="rowIterator">
+		<tr border="{layout.bordersize}">
+			<f:for each="{row}" as="field" iteration="iterator">
+				<f:if condition="{jh:displayRows(rows:settings.tabledisplayrows, position:iterator.index)}">
+					<f:if condition="{rowIterator.index} == 0">
+						<f:then>
+							<th>{field}</th>
+						</f:then>
+						<f:else>
+							<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+								<f:then>
+									<td class="stressed"><f:format.raw>{field}</f:format.raw></td>
+								</f:then>
+								<f:else>
+									<td><f:format.raw>{field}</f:format.raw></td>
+								</f:else>
+							</f:if>
+						</f:else>
+					</f:if>
+				</f:if>
+			</f:for>
+		</tr>
+	</f:for>
+	</tbody></table>
+</f:if>
+<f:if condition="{0:settings.displaycontent} == {0:'results'}">
+	<!-- results -->
+	<f:if condition="{0:settings.displayselection} == {0:'otherteamsbyjq'}">
+		<f:format.raw>{content.preHeader}</f:format.raw>
+		<script type="text/javascript">
+			jQuery.noConflict();
+			jQuery(document).ready(function($) {
+				$("input#results_allteams").click(function(){
+					if($("input#results_allteams").is(":checked")) {
+						$("table.results td.otherteam").show();
+					} else {
+						$("table.results td.otherteam").hide();
+					}
+				});
+			});
+		</script>
+	</f:if>
+	<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse" class="results"><tbody>
+	<f:for each="{content.data}" as="row" iteration="rowIterator">
+		<tr border="{layout.bordersize}">
+			<f:for each="{row}" as="field" iteration="fieldIterator">
+				<f:if condition="{jh:displayRows(rows:settings.resultsdisplayrows, position:fieldIterator.index)}">
+					<f:if condition="{rowIterator.index} == 0">
+						<f:then>
+							<th>{field}</th>
+						</f:then>
+						<f:else>
+							<f:if condition="{0:settings.displayselection} == {0:'all'}">
+								<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+									<f:then>
+										<td class="stressed">{field}</td>
+									</f:then>
+									<f:else>
+										<td>{field}</td>
+									</f:else>
+								</f:if>
+							</f:if>
+							<f:if condition="{0:settings.displayselection} == {0:'onlyownteam'}">
+								<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+									<td>{field}</td>
+								</f:if>
+							</f:if>
+							<f:if condition="{0:settings.displayselection} == {0:'otherteamsbyjq'}">
+								<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+									<f:then>
+										<td class="stressed">{field}</td>
+									</f:then>
+									<f:else>
+										<td class="otherteam" style="display: none;">{field}</td>
+									</f:else>
+								</f:if>
+							</f:if>
+						</f:else>
+					</f:if>
+				</f:if>
+			</f:for>
+		</tr>
+	</f:for>
+	</tbody></table>
+</f:if>
+<f:if condition="{0:settings.displaycontent} == {0:'playing_schedule'}">
+	<!-- playing_schedule -->
+	<f:if condition="{0:settings.displayselection} == {0:'otherteamsbyjq'}">
+		<f:format.raw>{content.preHeader}</f:format.raw>
+		<script type="text/javascript">
+			jQuery.noConflict();
+			jQuery(document).ready(function($) {
+				$("input#playingschedule_allteams").click(function(){
+					if($("input#playingschedule_allteams").is(":checked")) {
+						$("table.playing_schedule td.otherteam").show();
+					} else {
+						$("table.playing_schedule td.otherteam").hide();
+					}
+				});
+			});
+		</script>
+	</f:if>
+	<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse" class="playing_schedule"><tbody>
+	<f:for each="{content.data}" as="row" iteration="rowIterator">
+		<tr border="{layout.bordersize}">
+			<f:for each="{row}" as="field" iteration="fieldIterator">
+				<f:if condition="{jh:displayRows(rows:settings.playing_scheduledisplayrows, position:fieldIterator.index)}">
+					<f:if condition="{rowIterator.index} == 0">
+						<f:then>
+							<th>{field}</th>
+						</f:then>
+						<f:else>
+							<f:if condition="{0:settings.displayselection} == {0:'all'}">
+								<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+									<f:then>
+										<td class="stressed"><f:format.raw>{field}</f:format.raw></td>
+									</f:then>
+									<f:else>
+										<td><f:format.raw>{field}</f:format.raw></td>
+									</f:else>
+								</f:if>
+							</f:if>
+							<f:if condition="{0:settings.displayselection} == {0:'onlyownteam'}">
+								<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+									<td><f:format.raw>{field}</f:format.raw></td>
+								</f:if>
+							</f:if>
+							<f:if condition="{0:settings.displayselection} == {0:'otherteamsbyjq'}">
+								<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+									<f:then>
+										<td class="stressed"><f:format.raw>{field}</f:format.raw></td>
+									</f:then>
+									<f:else>
+										<td class="otherteam" style="display: none;"><f:format.raw>{field}</f:format.raw></td>
+									</f:else>
+								</f:if>
+							</f:if>
+						</f:else>
+					</f:if>
+				</f:if>
+			</f:for>
+		</tr>
+	</f:for>
+	</tbody></table>
+</f:if>
+<f:if condition="{0:settings.displaycontent} == {0:'statistic'}">
+	<!-- statistic -->
+	<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse"><tbody>
+	<f:for each="{content.data}" as="row" iteration="rowIterator">
+		<tr border="{layout.bordersize}">
+			<f:for each="{row}" as="field" iteration="iterator">
+				<f:if condition="{jh:displayRows(rows:settings.statisticdisplayrows, position:iterator.index)}">
+					<f:if condition="{rowIterator.index} == 0">
+						<f:then>
+							<th>{field}</th>
+						</f:then>
+						<f:else>
+							<f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+								<f:then>
+									<td class="stressed">{field}</td>
+								</f:then>
+								<f:else>
+									<td>{field}</td>
+								</f:else>
+							</f:if>
+						</f:else>
+					</f:if>
+				</f:if>
+			</f:for>
+		</tr>
+	</f:for>
+	</tbody></table>
+</f:if>
+<div class="update"><f:translate key="LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:lastUpdate" /> <f:format.date format="d.m.Y - H:i:s">{content.lastupdate}</f:format.date></div>
+<div class="source"><f:translate key="LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:source" /> <a href="{content.link}" target="_blank">www.basketball-bund.net</a></div>
+
+</f:section>

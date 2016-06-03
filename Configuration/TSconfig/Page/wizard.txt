@@ -1,0 +1,53 @@
+# default pageTSConfig
+mod.wizards.newContentElement.wizardItems {
+	plugins {
+		elements {
+			jhbasketballbundimport2Team {
+				title = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:team.title
+				description = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:team.description
+				icon = ../typo3conf/ext/jh_basketballbund_import2/Resources/Public/Icons/tx_jhbasketballbundimport2_team_wizard.gif
+				tt_content_defValues {
+					CType = list
+					list_type = jhbasketballbundimport2_team
+				}
+			}
+			jhbasketballbundimport2Teamcollection {
+				title = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:teamcollection.title
+				description = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:teamcollection.description
+				icon = ../typo3conf/ext/jh_basketballbund_import2/Resources/Public/Icons/tx_jhbasketballbundimport2_teamcollection_wizard.gif
+				tt_content_defValues {
+					CType = list
+					list_type = jhbasketballbundimport2_teamcollection
+				}
+			}
+		}
+		show = *
+	}
+}
+
+# templavoila for templavoila
+templavoila.wizards.newContentElement.wizardItems {
+	plugins {
+		elements {
+			jhbasketballbundimport2Team {
+				title = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:team.title
+				description = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:team.description
+				icon = ../typo3conf/ext/jh_basketballbund_import2/Resources/Public/Icons/tx_jhbasketballbundimport2_team_wizard.gif
+				tt_content_defValues {
+					CType = list
+					list_type = jhbasketballbundimport2_team
+				}
+			}
+			jhbasketballbundimport2Teamcollection {
+				title = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:teamcollection.title
+				description = LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_wizard.xlf:teamcollection.description
+				icon = ../typo3conf/ext/jh_basketballbund_import2/Resources/Public/Icons/tx_jhbasketballbundimport2_teamcollection_wizard.gif
+				tt_content_defValues {
+					CType = list
+					list_type = jhbasketballbundimport2_teamcollection
+				}
+			}
+		}
+		show = *
+	}
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-08-14T17:30:47Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="displayteam" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="displayteamcollection" xml:space="preserve">
+			<source>Teamcollection:</source>
+		</trans-unit>
+		<trans-unit id="lastUpdate" xml:space="preserve">
+			<source>Last update:</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows" xml:space="preserve">
+			<source>Columns:</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.date" xml:space="preserve">
+			<source>Date</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.details" xml:space="preserve">
+			<source>Details</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.endresult" xml:space="preserve">
+			<source>Endresult</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.guest" xml:space="preserve">
+			<source>Guest</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.home" xml:space="preserve">
+			<source>Home</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.matchday" xml:space="preserve">
+			<source>Matchday</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.number" xml:space="preserve">
+			<source>Number</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.team" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection" xml:space="preserve">
+			<source>Select content</source>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection.all" xml:space="preserve">
+			<source>All teams</source>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection.onlyownteam" xml:space="preserve">
+			<source>Only own team</source>
+		</trans-unit>
+		<trans-unit id="sdetails.displayselection.otherteamsbyjq" xml:space="preserve">
+			<source>Other teams by checkbox</source>
+		</trans-unit>
+		<trans-unit id="sdetails.title" xml:space="preserve">
+			<source>Details</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder" xml:space="preserve">
+			<source>Border</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.bytyposcript" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.no" xml:space="preserve">
+			<source>No</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.yes" xml:space="preserve">
+			<source>Yes</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam.bytyposcript" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam.local" xml:space="preserve">
+			<source>Define local</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayteam.local.input" xml:space="preserve">
+			<source>Team:</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr" xml:space="preserve">
+			<source>Allow linebreak in table-rows</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.bytyposcript" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.no" xml:space="preserve">
+			<source>No</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.yes" xml:space="preserve">
+			<source>Yes</source>
+		</trans-unit>
+		<trans-unit id="slayout.title" xml:space="preserve">
+			<source>Layout</source>
+		</trans-unit>
+		<trans-unit id="source" xml:space="preserve">
+			<source>Source:</source>
+		</trans-unit>
+		<trans-unit id="title" xml:space="preserve">
+			<source>Options</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

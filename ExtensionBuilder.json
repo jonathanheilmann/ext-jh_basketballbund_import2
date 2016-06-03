@@ -1,0 +1,273 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    48,
+                    86
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+                        "display"
+                    ]
+                },
+                "name": "Team",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "898825477936"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "readable name of team",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "team",
+                            "propertyType": "String",
+                            "uid": "770475280564"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "number of league the team participates",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "league",
+                            "propertyType": "Integer",
+                            "uid": "1131156729903"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    41,
+                    260
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+
+                    ]
+                },
+                "name": "Cache",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Cache of tables",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "574283979893"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "uid of content element the data belongs to",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": true,
+                            "propertyName": "ceUid",
+                            "propertyType": "Integer",
+                            "uid": "712869840787"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "md5 of plugin-settings",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "settingsMd5",
+                            "propertyType": "String",
+                            "uid": "72108257888"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "the cached data",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "data",
+                            "propertyType": "Text",
+                            "uid": "1145590858753"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    316,
+                    74
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+                        "display"
+                    ]
+                },
+                "name": "TeamCollection",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Collection of multiple teams",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "1290511671011"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "title of teamcollection",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "947677248673"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "teams",
+                            "relationType": "manyToMany",
+                            "relationWire": "[wired]",
+                            "uid": "1404176556303"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "Import tables, results, playing schedules and statistics from basketball-bund.net to your website.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "0.0.1"
+        },
+        "extensionKey": "jh_basketballbund_import2",
+        "name": "basketball-bund.net - import 2",
+        "originalExtensionKey": "jh_basketballbund_import2",
+        "persons": [
+            {
+                "company": "",
+                "email": "mail@jonathan-heilmann.de",
+                "name": "Jonathan Heilmann",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Team => display",
+                    "noncacheableActions": "Team => display",
+                    "switchableActions": ""
+                },
+                "key": "team",
+                "name": "basketball-bund.net - Team"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "TeamCollection => display",
+                    "noncacheableActions": "TeamCollection => display",
+                    "switchableActions": ""
+                },
+                "key": "teamcollection",
+                "name": "basketball-bund.net - Teamcollection"
+            }
+        ],
+        "vendorName": "Heilmann"
+    },
+    "wires": [
+        {
+            "src": {
+                "moduleId": 2,
+                "terminal": "relationWire_0",
+                "uid": "1404176556303"
+            },
+            "tgt": {
+                "moduleId": 0,
+                "terminal": "SOURCES",
+                "uid": "898825477936"
+            }
+        }
+    ],
+    "log": {
+        "last_modified": "2014-08-12 04:24",
+        "extension_builder_version": "6.2.0",
+        "be_user": " (1)"
+    }
+}

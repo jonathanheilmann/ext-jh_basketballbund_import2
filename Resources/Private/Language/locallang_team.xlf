@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-08-14T17:28:08Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="displayAllMatches" xml:space="preserve">
+			<source>Display all matches:</source>
+		</trans-unit>
+		<trans-unit id="displaycontent" xml:space="preserve">
+			<source>Display:</source>
+		</trans-unit>
+		<trans-unit id="displaycontent.playing_schedule" xml:space="preserve">
+			<source>Playing schedule</source>
+		</trans-unit>
+		<trans-unit id="displaycontent.results" xml:space="preserve">
+			<source>Results</source>
+		</trans-unit>
+		<trans-unit id="displaycontent.statistic" xml:space="preserve">
+			<source>statistic</source>
+		</trans-unit>
+		<trans-unit id="displaycontent.table" xml:space="preserve">
+			<source>Table</source>
+		</trans-unit>
+		<trans-unit id="displayonlyownteam" xml:space="preserve">
+			<source>Only own team</source>
+		</trans-unit>
+		<trans-unit id="displayotherteamsbyjq" xml:space="preserve">
+			<source>Other teams with jQuery</source>
+		</trans-unit>
+		<trans-unit id="displayselection" xml:space="preserve">
+			<source>Select content</source>
+		</trans-unit>
+		<trans-unit id="displayselection.all" xml:space="preserve">
+			<source>All teams</source>
+		</trans-unit>
+		<trans-unit id="displayselection.onlyownteam" xml:space="preserve">
+			<source>Only own team</source>
+		</trans-unit>
+		<trans-unit id="displayselection.otherteamsbyjq" xml:space="preserve">
+			<source>Other teams by checkbox</source>
+		</trans-unit>
+		<trans-unit id="displayteam" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="lastUpdate" xml:space="preserve">
+			<source>Last update:</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows" xml:space="preserve">
+			<source>Columns:</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.date" xml:space="preserve">
+			<source>Date</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.day" xml:space="preserve">
+			<source>Day</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.guest" xml:space="preserve">
+			<source>Guest</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.hall" xml:space="preserve">
+			<source>Hall</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.home" xml:space="preserve">
+			<source>Home</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.number" xml:space="preserve">
+			<source>Number</source>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.referee" xml:space="preserve">
+			<source>Referee</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows" xml:space="preserve">
+			<source>Columns:</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.date" xml:space="preserve">
+			<source>Date</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.details" xml:space="preserve">
+			<source>Details</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.endresult" xml:space="preserve">
+			<source>Endresult</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.guest" xml:space="preserve">
+			<source>Guest</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.home" xml:space="preserve">
+			<source>Home</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.matchday" xml:space="preserve">
+			<source>Matchday</source>
+		</trans-unit>
+		<trans-unit id="results.displayrows.number" xml:space="preserve">
+			<source>Number</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder" xml:space="preserve">
+			<source>Border</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.bytyposcript" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.no" xml:space="preserve">
+			<source>No</source>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.yes" xml:space="preserve">
+			<source>Yes</source>
+		</trans-unit>
+		<trans-unit id="slayout.markteam" xml:space="preserve">
+			<source>Stress team</source>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.bytyposcript" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.no" xml:space="preserve">
+			<source>No</source>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.yes" xml:space="preserve">
+			<source>Yes</source>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.yes.input" xml:space="preserve">
+			<source>Stress team:</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr" xml:space="preserve">
+			<source>Allow linebreak in table-rows</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.bytyposcript" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.no" xml:space="preserve">
+			<source>No</source>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.yes" xml:space="preserve">
+			<source>Yes</source>
+		</trans-unit>
+		<trans-unit id="slayout.title" xml:space="preserve">
+			<source>Layout</source>
+		</trans-unit>
+		<trans-unit id="source" xml:space="preserve">
+			<source>Source:</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows" xml:space="preserve">
+			<source>Columns:</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.baskets" xml:space="preserve">
+			<source>Baskets</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.difference" xml:space="preserve">
+			<source>Difference</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.double" xml:space="preserve">
+			<source>Double</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.fouls" xml:space="preserve">
+			<source>Fouls</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.fw" xml:space="preserve">
+			<source>fw</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.percentage" xml:space="preserve">
+			<source>Percentage</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.points" xml:space="preserve">
+			<source>Points</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.rank" xml:space="preserve">
+			<source>Rank</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.team" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.triple" xml:space="preserve">
+			<source>Triple</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows" xml:space="preserve">
+			<source>Columns:</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.baskets" xml:space="preserve">
+			<source>Baskets</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.difference" xml:space="preserve">
+			<source>Difference</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.games" xml:space="preserve">
+			<source>Games</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.points" xml:space="preserve">
+			<source>Points</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.rank" xml:space="preserve">
+			<source>Rank</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.team" xml:space="preserve">
+			<source>Team</source>
+		</trans-unit>
+		<trans-unit id="table.displayrows.w_l" xml:space="preserve">
+			<source>w/l</source>
+		</trans-unit>
+		<trans-unit id="title" xml:space="preserve">
+			<source>Options</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

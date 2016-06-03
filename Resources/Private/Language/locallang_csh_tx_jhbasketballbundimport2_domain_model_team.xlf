@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-08-13T11:44:59Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="league.description" xml:space="preserve">
+			<source>Number of league the team participates</source>
+		</trans-unit>
+		<trans-unit id="team.description" xml:space="preserve">
+			<source>Readable name of team</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

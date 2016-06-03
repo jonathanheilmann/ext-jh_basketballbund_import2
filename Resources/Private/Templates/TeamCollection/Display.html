@@ -1,0 +1,37 @@
+{namespace jh=Heilmann\JhBasketballbundImport2\ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<!-- results -->
+<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse" class="results"><tbody>
+<f:for each="{content.data}" as="row" iteration="rowIterator">
+	<tr border="{layout.bordersize}">
+		<f:for each="{row}" as="field" iteration="fieldIterator">
+			<f:if condition="{jh:displayRows(rows:settings.resultsdisplayrows, position:fieldIterator.index)}">
+				<f:if condition="{rowIterator.index} == 0">
+					<f:then>
+						<th>{field}</th>
+					</f:then>
+					<f:else>
+						<f:if condition="{0:layout.displayteam} == {0:field}">
+							<f:then>
+								<td class="stressed">{field}</td>
+							</f:then>
+							<f:else>
+								<td>{field}</td>
+							</f:else>
+						</f:if>
+					</f:else>
+				</f:if>
+			</f:if>
+		</f:for>
+	</tr>
+</f:for>
+</tbody></table>
+
+<div class="update"><f:translate key="LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_teamcollection.xlf:lastUpdate" /> <f:format.date format="d.m.Y - H:i:s">{content.lastupdate}</f:format.date></div>
+<div class="source"><f:translate key="LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_teamcollection.xlf:source" /> <a href="{content.link}" target="_blank">www.basketball-bund.net</a></div>
+
+</f:section>

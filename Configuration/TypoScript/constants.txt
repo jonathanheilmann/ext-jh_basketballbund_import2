@@ -1,0 +1,30 @@
+plugin.tx_jhbasketballbundimport2 {
+	view {
+		# cat=plugin.tx_jhbasketballbundimport2/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:jh_basketballbund_import2/Resources/Private/Templates/
+		# cat=plugin.tx_jhbasketballbundimport2/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:jh_basketballbund_import2/Resources/Private/Partials/
+		# cat=plugin.tx_jhbasketballbundimport2/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:jh_basketballbund_import2/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_jhbasketballbundimport2//a; type=string; label=Default storage PID
+		storagePid =
+	}
+	settings {
+		#cat=plugin.tx_jhbasketballbundimport2/settings/10; type=int; label=storagefolder uid;
+		storagefolder = 0
+		#cat=plugin.tx_jhbasketballbundimport2/settings/12; type=string; label=Path to jQuery:Empty to not include jQuery;
+		jQuery = EXT:jh_basketballbund_import2/Resources/Public/JavaScript/jquery-1.11.1.min.js
+
+		#cat=plugin.tx_jhbasketballbundimport2/cache/20; type=options[1,2,3,4,6,12,24]; label=cache lifetime in hours;
+		cachelifetime = 2
+
+		#cat=plugin.tx_jhbasketballbundimport2/layout/30; type=boolean; label=display border;
+		displayborder = 1
+		#cat=plugin.tx_jhbasketballbundimport2/layout/32; type=boolean; label=allow linebreaks;
+		allowbr = 1
+		#cat=plugin.tx_jhbasketballbundimport2/layout/34; type=string; label=team: team to be stressed in single team content and to be displayed in teamcollection content;
+		stressteam = SC Borchen
+	}
+}

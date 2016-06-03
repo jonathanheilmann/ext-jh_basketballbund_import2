@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-08-14T17:28:08Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="displayAllMatches" approved="yes" xml:space="preserve">
+			<source>Display all matches:</source>
+			<target>Alle Begegnungen anzeigen:</target>
+		</trans-unit>
+		<trans-unit id="displaycontent" approved="yes" xml:space="preserve">
+			<source>Display:</source>
+			<target>Anzeigen:</target>
+		</trans-unit>
+		<trans-unit id="displaycontent.playing_schedule" approved="yes" xml:space="preserve">
+			<source>Playing schedule</source>
+			<target>Spielplan</target>
+		</trans-unit>
+		<trans-unit id="displaycontent.results" approved="yes" xml:space="preserve">
+			<source>Results</source>
+			<target>Ergebnisse</target>
+		</trans-unit>
+		<trans-unit id="displaycontent.table" approved="yes" xml:space="preserve">
+			<source>Table</source>
+			<target>Tabelle</target>
+		</trans-unit>
+		<trans-unit id="displayonlyownteam" approved="yes" xml:space="preserve">
+			<source>Only own team</source>
+			<target>Nur eigenes Team</target>
+		</trans-unit>
+		<trans-unit id="displayotherteamsbyjq" approved="yes" xml:space="preserve">
+			<source>Other teams with jQuery</source>
+			<target>Andere Teams durch jQuery</target>
+		</trans-unit>
+		<trans-unit id="displayselection" approved="yes" xml:space="preserve">
+			<source>Select content</source>
+			<target>Inhalt auswählen</target>
+		</trans-unit>
+		<trans-unit id="displayselection.all" approved="yes" xml:space="preserve">
+			<source>All teams</source>
+			<target>Alle Teams</target>
+		</trans-unit>
+		<trans-unit id="displayselection.onlyownteam" approved="yes" xml:space="preserve">
+			<source>Only own team</source>
+			<target>Nur eigenes Team</target>
+		</trans-unit>
+		<trans-unit id="displayselection.otherteamsbyjq" approved="yes" xml:space="preserve">
+			<source>Other teams by checkbox</source>
+			<target>Andere Teams durch Checkbox</target>
+		</trans-unit>
+		<trans-unit id="displayteam" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="lastUpdate" approved="yes" xml:space="preserve">
+			<source>Last update:</source>
+			<target>Letzte Aktualisierung:</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows" approved="yes" xml:space="preserve">
+			<source>Columns:</source>
+			<target>Spalten:</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.date" approved="yes" xml:space="preserve">
+			<source>Date</source>
+			<target>Datum</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.day" approved="yes" xml:space="preserve">
+			<source>Day</source>
+			<target>Tag</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.guest" approved="yes" xml:space="preserve">
+			<source>Guest</source>
+			<target>Gast</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.hall" approved="yes" xml:space="preserve">
+			<source>Hall</source>
+			<target>Spielhalle</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.home" approved="yes" xml:space="preserve">
+			<source>Home</source>
+			<target>Heim</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.number" approved="yes" xml:space="preserve">
+			<source>Number</source>
+			<target>Nr.</target>
+		</trans-unit>
+		<trans-unit id="playing_schedule.displayrows.referee" approved="yes" xml:space="preserve">
+			<source>Referee</source>
+			<target>Schiedsrichter</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows" approved="yes" xml:space="preserve">
+			<source>Columns:</source>
+			<target>Spalten:</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.date" approved="yes" xml:space="preserve">
+			<source>Date</source>
+			<target>Datum</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.details" approved="yes" xml:space="preserve">
+			<source>Details</source>
+			<target>Details</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.endresult" approved="yes" xml:space="preserve">
+			<source>Endresult</source>
+			<target>Endstand</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.guest" approved="yes" xml:space="preserve">
+			<source>Guest</source>
+			<target>Gast</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.home" approved="yes" xml:space="preserve">
+			<source>Home</source>
+			<target>Heim</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.matchday" approved="yes" xml:space="preserve">
+			<source>Matchday</source>
+			<target>Spieltag</target>
+		</trans-unit>
+		<trans-unit id="results.displayrows.number" approved="yes" xml:space="preserve">
+			<source>Number</source>
+			<target>Nr.</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder" approved="yes" xml:space="preserve">
+			<source>Border</source>
+			<target>Rahmen</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.bytyposcript" approved="yes" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+			<target>Definiert durch TypoScript</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.no" approved="yes" xml:space="preserve">
+			<source>No</source>
+			<target>Nein</target>
+		</trans-unit>
+		<trans-unit id="slayout.displayborder.yes" approved="yes" xml:space="preserve">
+			<source>Yes</source>
+			<target>Ja</target>
+		</trans-unit>
+		<trans-unit id="slayout.markteam" approved="yes" xml:space="preserve">
+			<source>Stress team</source>
+			<target>Team hervorheben</target>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.bytyposcript" approved="yes" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+			<target>Definiert durch TypoScript</target>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.no" approved="yes" xml:space="preserve">
+			<source>No</source>
+			<target>Nein</target>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.yes" approved="yes" xml:space="preserve">
+			<source>Yes</source>
+			<target>Ja</target>
+		</trans-unit>
+		<trans-unit id="slayout.markteam.yes.input" approved="yes" xml:space="preserve">
+			<source>Stress team:</source>
+			<target>Team hervorheben:</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr" approved="yes" xml:space="preserve">
+			<source>Allow linebreak in table-rows</source>
+			<target>Zeilenumbruch in Tabellen-Zeile erlauben</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.bytyposcript" approved="yes" xml:space="preserve">
+			<source>Defined by TypoScript</source>
+			<target>Definiert durch TypoScript</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.no" approved="yes" xml:space="preserve">
+			<source>No</source>
+			<target>Nein</target>
+		</trans-unit>
+		<trans-unit id="slayout.nobr.yes" approved="yes" xml:space="preserve">
+			<source>Yes</source>
+			<target>Ja</target>
+		</trans-unit>
+		<trans-unit id="slayout.title" approved="yes" xml:space="preserve">
+			<source>Layout</source>
+			<target>Layout</target>
+		</trans-unit>
+		<trans-unit id="source" approved="yes" xml:space="preserve">
+			<source>Source:</source>
+			<target>Quelle:</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows" approved="yes" xml:space="preserve">
+			<source>Columns:</source>
+			<target>Spalten:</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.baskets" approved="yes" xml:space="preserve">
+			<source>Baskets</source>
+			<target>Körbe</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.difference" approved="yes" xml:space="preserve">
+			<source>Difference</source>
+			<target>Diff</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.double" approved="yes" xml:space="preserve">
+			<source>Double</source>
+			<target>2er</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.fouls" approved="yes" xml:space="preserve">
+			<source>Fouls</source>
+			<target>Fouls</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.fw" approved="yes" xml:space="preserve">
+			<source>fw</source>
+			<target>FW</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.percentage" approved="yes" xml:space="preserve">
+			<source>Percentage</source>
+			<target>Prozent</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.points" approved="yes" xml:space="preserve">
+			<source>Points</source>
+			<target>Punkte</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.rank" approved="yes" xml:space="preserve">
+			<source>Rank</source>
+			<target>Rang</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.team" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="statistic.displayrows.triple" approved="yes" xml:space="preserve">
+			<source>Triple</source>
+			<target>3er</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows" approved="yes" xml:space="preserve">
+			<source>Columns:</source>
+			<target>Spalten:</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.baskets" approved="yes" xml:space="preserve">
+			<source>Baskets</source>
+			<target>Körbe</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.difference" approved="yes" xml:space="preserve">
+			<source>Difference</source>
+			<target>Differenz</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.games" approved="yes" xml:space="preserve">
+			<source>Games</source>
+			<target>Spiele</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.points" approved="yes" xml:space="preserve">
+			<source>Points</source>
+			<target>Punkte</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.rank" approved="yes" xml:space="preserve">
+			<source>Rank</source>
+			<target>Rang</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.team" approved="yes" xml:space="preserve">
+			<source>Team</source>
+			<target>Team</target>
+		</trans-unit>
+		<trans-unit id="table.displayrows.w_l" approved="yes" xml:space="preserve">
+			<source>w/l</source>
+			<target>W/L</target>
+		</trans-unit>
+		<trans-unit id="title" approved="yes" xml:space="preserve">
+			<source>Options</source>
+			<target>Optionen</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>
