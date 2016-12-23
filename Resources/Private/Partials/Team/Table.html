@@ -1,0 +1,22 @@
+{namespace jh=Heilmann\JhBasketballbundImport2\ViewHelpers}
+
+<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse">
+    <tbody>
+    <f:for each="{content.data}" as="row" iteration="rowIterator">
+        <tr>
+            <f:for each="{row}" as="field" iteration="iterator">
+                <f:if condition="{jh:displayRows(rows:settings.tabledisplayrows, position:iterator.index)}">
+                    <f:if condition="{rowIterator.index} == 0">
+                        <f:then>
+                            <th>{field}</th>
+                        </f:then>
+                        <f:else>
+                            <td class="{f:if(condition:'{jh:stressTeam(team:layout.stressteam, row:row)}', then:' stressed')}">{field->f:format.raw()}</td>
+                        </f:else>
+                    </f:if>
+                </f:if>
+            </f:for>
+        </tr>
+    </f:for>
+    </tbody>
+</table>

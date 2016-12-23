@@ -12,12 +12,9 @@ plugin.tx_jhbasketballbundimport2 {
 		# rewrittenPropertyMapper = 1
 	}
 	settings {
-		storagefolder = {$plugin.tx_jhbasketballbundimport2.settings.storagefolder}
-
-		cachelifetime = {$plugin.tx_jhbasketballbundimport2.settings.cachelifetime}
+		cachelifetimeSeconds = {$plugin.tx_jhbasketballbundimport2.settings.cachelifetimeSeconds}
 
 		displayborder = {$plugin.tx_jhbasketballbundimport2.settings.displayborder}
-		allowbr = {$plugin.tx_jhbasketballbundimport2.settings.allowbr}
 		stressteam = {$plugin.tx_jhbasketballbundimport2.settings.stressteam}
 	}
 }

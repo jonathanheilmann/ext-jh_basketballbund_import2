@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "jh_basketballbund_import2".
  *
- * Auto generated 25-01-2015 17:12
+ * Auto generated 04-05-2016 19:31
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'title' => 'basketball-bund.net - import 2',
 	'description' => 'Import tables, results, playing schedules and statistics from basketball-bund.net to your website.',
 	'category' => 'plugin',
-	'version' => '0.1.0',
+	'version' => '1.0.0',
 	'state' => 'beta',
 	'uploadfolder' => false,
 	'createDirs' => '',
@@ -22,16 +22,16 @@ $EM_CONF[$_EXTKEY] = array (
 	'author' => 'Jonathan Heilmann',
 	'author_email' => 'mail@jonathan-heilmann.de',
 	'author_company' => '',
-	'constraints' =>
+	'constraints' => 
 	array (
-		'depends' =>
+		'depends' => 
 		array (
-			'typo3' => '6.0.0 - 6.2.99',
+			'typo3' => '6.2.0 - 7.6.99',
 		),
-		'conflicts' =>
+		'conflicts' => 
 		array (
 		),
-		'suggests' =>
+		'suggests' => 
 		array (
 		),
 	),

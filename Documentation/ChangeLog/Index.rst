@@ -17,6 +17,23 @@ ChangeLog
 		:local:
 		:depth: 1
 
+.. _version-1-0-0:
+
+1.0.0
+-----
+
+\* Almost completely rewritten code
+
+\* Added support for TYPO3 CMS 7 LTS
+
+\* Dropped support for un-supported TYPO3 CMS versions
+
+\* Updated constants (See constant editor)
+
+\* Updated shipped jQuery
+
+\* Moved extension to GitHub (https://github.com/jonathanheilmann/ext-jh_basketballbund_import2)
+
 .. _version-0-1-0:
 
 0.1.0

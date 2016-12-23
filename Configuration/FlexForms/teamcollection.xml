@@ -129,29 +129,6 @@
                 </config>
             </TCEforms>
           </settings.flexform.displayborder>
-          <settings.flexform.nobr>
-            <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_teamcollection.xlf:slayout.nobr</label>
-                <config>
-                  <type>select</type>
-                  <items type="array">
-                    <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_teamcollection.xlf:slayout.nobr.no</numIndex>
-                      <numIndex index="1">0</numIndex>
-                    </numIndex>
-                    <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_teamcollection.xlf:slayout.nobr.yes</numIndex>
-                      <numIndex index="1">1</numIndex>
-                    </numIndex>
-                    <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_teamcollection.xlf:slayout.nobr.bytyposcript</numIndex>
-                      <numIndex index="1">2</numIndex>
-                    </numIndex>
-                  </items>
-                  <default>2</default>
-                </config>
-            </TCEforms>
-          </settings.flexform.nobr>
         </el>
       </ROOT>
     </sLAYOUT>

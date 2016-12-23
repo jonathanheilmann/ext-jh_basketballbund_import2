@@ -6,13 +6,13 @@
     <sDEF>
       <ROOT>
         <TCEforms>
-          <sheetTitle>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:title</sheetTitle>
+          <sheetTitle>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:title</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
           <settings.displayteam>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displayteam</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displayteam</label>
                 <config>
                   <type>select</type>
                   <items type="array">
@@ -27,25 +27,25 @@
           </settings.displayteam>
           <settings.displaycontent>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displaycontent</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displaycontent</label>
                 <onChange>reload</onChange>
                 <config>
                   <type>radio</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displaycontent.table</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displaycontent.table</numIndex>
                       <numIndex index="1">table</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displaycontent.results</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displaycontent.results</numIndex>
                       <numIndex index="1">results</numIndex>
                     </numIndex>
                     <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displaycontent.playing_schedule</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displaycontent.playing_schedule</numIndex>
                       <numIndex index="1">playing_schedule</numIndex>
                     </numIndex>
                     <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displaycontent.statistic</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displaycontent.statistic</numIndex>
                       <numIndex index="1">statistic</numIndex>
                     </numIndex>
                   </items>
@@ -54,20 +54,20 @@
           </settings.displaycontent>
           <settings.displayselection>
           	  <TCEforms>
-                  <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displayselection</label>
+                  <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displayselection</label>
                   <config>
                        <type>select</type>
                   	  <items type="array">
 		                    <numIndex index="0" type="array">
-		                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displayselection.all</numIndex>
+		                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displayselection.all</numIndex>
 		                      <numIndex index="1">all</numIndex>
 		                    </numIndex>
 		                    <numIndex index="1" type="array">
-		                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displayselection.onlyownteam</numIndex>
+		                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displayselection.onlyownteam</numIndex>
 		                      <numIndex index="1">onlyownteam</numIndex>
 		                    </numIndex>
 		                    <numIndex index="2" type="array">
-		                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:displayselection.otherteamsbyjq</numIndex>
+		                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:displayselection.otherteamsbyjq</numIndex>
 		                      <numIndex index="1">otherteamsbyjq</numIndex>
 		                    </numIndex>
                   	  </items>
@@ -78,37 +78,37 @@
           </settings.displayselection>
           <settings.tabledisplayrows>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows</label>
                 <displayCond>FIELD:settings.displaycontent:=:table</displayCond>
                 <config>
                   <type>check</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.rank</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.rank</numIndex>
                       <numIndex index="1">1</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.team</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.team</numIndex>
                       <numIndex index="1">2</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.games</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.games</numIndex>
                       <numIndex index="1">3</numIndex>
                     </numIndex>
                     <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.w_l</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.w_l</numIndex>
                       <numIndex index="1">4</numIndex>
                     </numIndex>
                     <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.points</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.points</numIndex>
                       <numIndex index="1">5</numIndex>
                     </numIndex>
                     <numIndex index="5" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.baskets</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.baskets</numIndex>
                       <numIndex index="1">6</numIndex>
                     </numIndex>
                     <numIndex index="6" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:table.displayrows.difference</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:table.displayrows.difference</numIndex>
                       <numIndex index="1">7</numIndex>
                     </numIndex>
                   </items>
@@ -118,40 +118,40 @@
           </settings.tabledisplayrows>
           <settings.resultsdisplayrows>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows</label>
                 <displayCond>FIELD:settings.displaycontent:=:results</displayCond>
                 <config>
                   <type>check</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.number</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.number</numIndex>
                       <numIndex index="1">1</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.matchday</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.matchday</numIndex>
                       <numIndex index="1">2</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.date</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.date</numIndex>
                       <numIndex index="1">3</numIndex>
                     </numIndex>
                     <!-- changed in version 0.0.4: column "details" has been removed by basketball-bund.net -->
                     <!--
                     <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.details</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.details</numIndex>
                       <numIndex index="1">4</numIndex>
                     </numIndex>
                     -->
                     <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.home</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.home</numIndex>
                       <numIndex index="1">5</numIndex>
                     </numIndex>
                     <numIndex index="5" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.guest</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.guest</numIndex>
                       <numIndex index="1">6</numIndex>
                     </numIndex>
                     <numIndex index="6" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:results.displayrows.endresult</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:results.displayrows.endresult</numIndex>
                       <numIndex index="1">7</numIndex>
                     </numIndex>
                   </items>
@@ -161,37 +161,37 @@
           </settings.resultsdisplayrows>
           <settings.playing_scheduledisplayrows>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows</label>
                 <displayCond>FIELD:settings.displaycontent:=:playing_schedule</displayCond>
                 <config>
                   <type>check</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.number</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.number</numIndex>
                       <numIndex index="1">1</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.day</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.day</numIndex>
                       <numIndex index="1">2</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.date</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.date</numIndex>
                       <numIndex index="1">3</numIndex>
                     </numIndex>
                     <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.home</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.home</numIndex>
                       <numIndex index="1">4</numIndex>
                     </numIndex>
                     <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.guest</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.guest</numIndex>
                       <numIndex index="1">5</numIndex>
                     </numIndex>
                     <numIndex index="5" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.hall</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.hall</numIndex>
                       <numIndex index="1">6</numIndex>
                     </numIndex>
                     <numIndex index="6" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:playing_schedule.displayrows.referee</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:playing_schedule.displayrows.referee</numIndex>
                       <numIndex index="1">7</numIndex>
                     </numIndex>
                   </items>
@@ -201,49 +201,49 @@
           </settings.playing_scheduledisplayrows>
           <settings.statisticdisplayrows>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows</label>
                 <displayCond>FIELD:settings.displaycontent:=:statistic</displayCond>
                 <config>
                   <type>check</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.rank</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.rank</numIndex>
                       <numIndex index="1">1</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.team</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.team</numIndex>
                       <numIndex index="1">2</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.points</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.points</numIndex>
                       <numIndex index="1">3</numIndex>
                     </numIndex>
                     <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.baskets</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.baskets</numIndex>
                       <numIndex index="1">4</numIndex>
                     </numIndex>
                     <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.difference</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.difference</numIndex>
                       <numIndex index="1">5</numIndex>
                     </numIndex>
                     <numIndex index="5" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.fw</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.fw</numIndex>
                       <numIndex index="1">6</numIndex>
                     </numIndex>
                     <numIndex index="6" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.percentage</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.percentage</numIndex>
                       <numIndex index="1">7</numIndex>
                     </numIndex>
                     <numIndex index="7" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.double</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.double</numIndex>
                       <numIndex index="1">8</numIndex>
                     </numIndex>
                     <numIndex index="8" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.triple</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.triple</numIndex>
                       <numIndex index="1">9</numIndex>
                     </numIndex>
                     <numIndex index="9" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:statistic.displayrows.fouls</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:statistic.displayrows.fouls</numIndex>
                       <numIndex index="1">10</numIndex>
                     </numIndex>
                   </items>
@@ -257,26 +257,26 @@
     <sLAYOUT>
       <ROOT>
         <TCEforms>
-          <sheetTitle>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.title</sheetTitle>
+          <sheetTitle>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.title</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
           <settings.flexform.markteam>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.markteam</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.markteam</label>
                 <config>
                   <type>select</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.markteam.no</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.markteam.no</numIndex>
                       <numIndex index="1">0</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.markteam.yes</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.markteam.yes</numIndex>
                       <numIndex index="1">1</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.markteam.bytyposcript</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.markteam.bytyposcript</numIndex>
                       <numIndex index="1">2</numIndex>
                     </numIndex>
                   </items>
@@ -287,7 +287,7 @@
           </settings.flexform.markteam>
           <settings.flexform.markteamyes>
               <TCEforms>
-                  <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.markteam.yes.input</label>
+                  <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.markteam.yes.input</label>
                   <config>
                       <type>input</type>
                       <size>20</size>
@@ -299,20 +299,20 @@
           </settings.flexform.markteamyes>
           <settings.flexform.displayborder>
             <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.displayborder</label>
+                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.displayborder</label>
                 <config>
                   <type>select</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.displayborder.no</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.displayborder.no</numIndex>
                       <numIndex index="1">0</numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.displayborder.yes</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.displayborder.yes</numIndex>
                       <numIndex index="1">1</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.displayborder.bytyposcript</numIndex>
+                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang.xlf:slayout.displayborder.bytyposcript</numIndex>
                       <numIndex index="1">2</numIndex>
                     </numIndex>
                   </items>
@@ -320,29 +320,6 @@
                 </config>
             </TCEforms>
           </settings.flexform.displayborder>
-          <settings.flexform.nobr>
-            <TCEforms>
-                <label>LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.nobr</label>
-                <config>
-                  <type>select</type>
-                  <items type="array">
-                    <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.nobr.no</numIndex>
-                      <numIndex index="1">0</numIndex>
-                    </numIndex>
-                    <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.nobr.yes</numIndex>
-                      <numIndex index="1">1</numIndex>
-                    </numIndex>
-                    <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_team.xlf:slayout.nobr.bytyposcript</numIndex>
-                      <numIndex index="1">2</numIndex>
-                    </numIndex>
-                  </items>
-                  <default>2</default>
-                </config>
-            </TCEforms>
-          </settings.flexform.nobr>
         </el>
       </ROOT>
     </sLAYOUT>

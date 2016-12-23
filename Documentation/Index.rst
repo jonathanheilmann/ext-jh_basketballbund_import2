@@ -29,7 +29,7 @@ basketball-bund.net - import 2
 		basketball,basketball-bund.net,table,result,playing schedule, statistic
 
 	:Copyright:
-		2014
+		2014-2016
 
 	:Author:
 		Jonathan Heilmann

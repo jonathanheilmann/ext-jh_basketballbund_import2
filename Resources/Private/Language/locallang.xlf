@@ -122,18 +122,6 @@
 		<trans-unit id="slayout.markteam.yes.input" xml:space="preserve">
 			<source>Stress team:</source>
 		</trans-unit>
-		<trans-unit id="slayout.nobr" xml:space="preserve">
-			<source>Allow linebreak in table-rows</source>
-		</trans-unit>
-		<trans-unit id="slayout.nobr.bytyposcript" xml:space="preserve">
-			<source>Defined by TypoScript</source>
-		</trans-unit>
-		<trans-unit id="slayout.nobr.no" xml:space="preserve">
-			<source>No</source>
-		</trans-unit>
-		<trans-unit id="slayout.nobr.yes" xml:space="preserve">
-			<source>Yes</source>
-		</trans-unit>
 		<trans-unit id="slayout.title" xml:space="preserve">
 			<source>Layout</source>
 		</trans-unit>

@@ -12,18 +12,14 @@ plugin.tx_jhbasketballbundimport2 {
 		storagePid =
 	}
 	settings {
-		#cat=plugin.tx_jhbasketballbundimport2/settings/10; type=int; label=storagefolder uid;
-		storagefolder = 0
 		#cat=plugin.tx_jhbasketballbundimport2/settings/12; type=string; label=Path to jQuery:Empty to not include jQuery;
-		jQuery = EXT:jh_basketballbund_import2/Resources/Public/JavaScript/jquery-1.11.1.min.js
+		jQuery = EXT:jh_basketballbund_import2/Resources/Public/JavaScript/jquery-2.2.4.min.js
 
-		#cat=plugin.tx_jhbasketballbundimport2/cache/20; type=options[1,2,3,4,6,12,24]; label=cache lifetime in hours;
-		cachelifetime = 2
+		#cat=plugin.tx_jhbasketballbundimport2/cache/20; type=int; label=cache lifetime in seconds;
+		cachelifetimeSeconds = 7200
 
 		#cat=plugin.tx_jhbasketballbundimport2/layout/30; type=boolean; label=display border;
 		displayborder = 1
-		#cat=plugin.tx_jhbasketballbundimport2/layout/32; type=boolean; label=allow linebreaks;
-		allowbr = 1
 		#cat=plugin.tx_jhbasketballbundimport2/layout/34; type=string; label=team: team to be stressed in single team content and to be displayed in teamcollection content;
 		stressteam = SC Borchen
 	}

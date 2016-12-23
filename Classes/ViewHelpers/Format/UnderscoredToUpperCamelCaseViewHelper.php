@@ -1,16 +1,18 @@
 <?php
-namespace Heilmann\JhBasketballbundImport2\Tests\Unit\Controller;
+namespace Heilmann\JhBasketballbundImport2\ViewHelpers\Format;
+
 /***************************************************************
+ *
  *  Copyright notice
  *
- *  (c) 2014 Jonathan Heilmann <mail@jonathan-heilmann.de>
- *  			
+ *  (c) 2016 Jonathan Heilmann <mail@jonathan-heilmann.de>
+ *
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
  *  free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation; either version 2 of the License, or
+ *  the Free Software Foundation; either version 3 of the License, or
  *  (at your option) any later version.
  *
  *  The GNU General Public License can be found at
@@ -23,25 +25,22 @@ namespace Heilmann\JhBasketballbundImport2\Tests\Unit\Controller;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
- * Test case for class Heilmann\JhBasketballbundImport2\Controller\TeamCollectionController.
- *
- * @author Jonathan Heilmann <mail@jonathan-heilmann.de>
+ * Class UnderscoredToUpperCamelCaseViewHelper
+ * @package Heilmann\JhBasketballbundImport2\ViewHelpers\Format
  */
-class TeamCollectionControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestCase {
+class UnderscoredToUpperCamelCaseViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper
+{
 
-	/**
-	 * @var \Heilmann\JhBasketballbundImport2\Controller\TeamCollectionController
-	 */
-	protected $subject = NULL;
-
-	protected function setUp() {
-		$this->subject = $this->getMock('Heilmann\\JhBasketballbundImport2\\Controller\\TeamCollectionController', array('redirect', 'forward', 'addFlashMessage'), array(), '', FALSE);
-	}
-
-	protected function tearDown() {
-		unset($this->subject);
-	}
+    /**
+     * @param string $string
+     * @return string
+     */
+    public function render($string)
+    {
+        return GeneralUtility::underscoredToUpperCamelCase($string);
+    }
 
 }

@@ -1,0 +1,54 @@
+{namespace jh=Heilmann\JhBasketballbundImport2\ViewHelpers}
+
+<f:if condition="{0:settings.displayselection} == {0:'otherteamsbyjq'}">
+    <f:format.raw>{content.preHeader}</f:format.raw>
+    <jh:pageRenderer.addJsInlineCode name="JhBasketballbundImport2_PlayingSchedule" addToFooter="1">
+        (function($) {
+            $("input#playingschedule_allteams").click(function () {
+                var tdOtherteam = $("table.playing_schedule td.otherteam");
+                if ($(this).is(":checked")) {
+                    tdOtherteam.show();
+                } else {
+                    tdOtherteam.hide();
+                }
+            });
+        })(window.jQuery);
+    </jh:pageRenderer.addJsInlineCode>
+</f:if>
+<table border="{layout.bordersize}" cellpadding="2" style="border-collapse:collapse" class="playing_schedule">
+    <tbody>
+    <f:for each="{content.data}" as="row" iteration="rowIterator">
+        <tr>
+            <f:for each="{row}" as="field" iteration="fieldIterator">
+                <f:if condition="{jh:displayRows(rows:settings.playing_scheduledisplayrows, position:fieldIterator.index)}">
+                    <f:if condition="{rowIterator.index} == 0">
+                        <f:then>
+                            <th>{field}</th>
+                        </f:then>
+                        <f:else>
+                            <f:if condition="{0:settings.displayselection} == {0:'all'}">
+                                <td class="{f:if(condition:'{jh:stressTeam(team:layout.stressteam, row:row)}', then:' stressed')}">{field->f:format.raw()}</td>
+                            </f:if>
+                            <f:if condition="{0:settings.displayselection} == {0:'onlyownteam'}">
+                                <f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+                                    <td>{field->f:format.raw()}</td>
+                                </f:if>
+                            </f:if>
+                            <f:if condition="{0:settings.displayselection} == {0:'otherteamsbyjq'}">
+                                <f:if condition="{jh:stressTeam(team:layout.stressteam, row:row)}">
+                                    <f:then>
+                                        <td class="stressed">{field->f:format.raw()}</td>
+                                    </f:then>
+                                    <f:else>
+                                        <td class="otherteam" style="display: none;">{field->f:format.raw()}</td>
+                                    </f:else>
+                                </f:if>
+                            </f:if>
+                        </f:else>
+                    </f:if>
+                </f:if>
+            </f:for>
+        </tr>
+    </f:for>
+    </tbody>
+</table>

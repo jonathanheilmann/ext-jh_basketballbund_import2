@@ -46,35 +46,6 @@ $GLOBALS['TCA']['tx_jhbasketballbundimport2_domain_model_team'] = array(
 	),
 );
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_jhbasketballbundimport2_domain_model_cache', 'EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_csh_tx_jhbasketballbundimport2_domain_model_cache.xlf');
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_jhbasketballbundimport2_domain_model_cache');
-$GLOBALS['TCA']['tx_jhbasketballbundimport2_domain_model_cache'] = array(
-	'ctrl' => array(
-		'title'	=> 'LLL:EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_db.xlf:tx_jhbasketballbundimport2_domain_model_cache',
-		'label' => 'ce_uid',
-		'tstamp' => 'tstamp',
-		'crdate' => 'crdate',
-		'cruser_id' => 'cruser_id',
-		'dividers2tabs' => TRUE,
-		'sortby' => 'sorting',
-		'versioningWS' => 2,
-		'versioning_followPages' => TRUE,
-
-		'languageField' => 'sys_language_uid',
-		'transOrigPointerField' => 'l10n_parent',
-		'transOrigDiffSourceField' => 'l10n_diffsource',
-		'delete' => 'deleted',
-		'enablecolumns' => array(
-			'disabled' => 'hidden',
-			'starttime' => 'starttime',
-			'endtime' => 'endtime',
-		),
-		'searchFields' => 'ce_uid,settings_md5,data,',
-		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Configuration/TCA/Cache.php',
-		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_jhbasketballbundimport2_domain_model_cache.gif'
-	),
-);
-
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_jhbasketballbundimport2_domain_model_teamcollection', 'EXT:jh_basketballbund_import2/Resources/Private/Language/locallang_csh_tx_jhbasketballbundimport2_domain_model_teamcollection.xlf');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_jhbasketballbundimport2_domain_model_teamcollection');
 $GLOBALS['TCA']['tx_jhbasketballbundimport2_domain_model_teamcollection'] = array(
@@ -115,6 +86,3 @@ $TCA['tt_content']['types']['list']['subtypes_addlist'][$extensionName.'_teamcol
 $TCA['tt_content']['types']['list']['subtypes_excludelist'][$extensionName.'_team'] = 'layout,select_key,pages';
 $TCA['tt_content']['types']['list']['subtypes_addlist'][$extensionName.'_team'] = 'pi_flexform';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($extensionName.'_team', 'FILE:EXT:'.$_EXTKEY . '/Configuration/FlexForms/team.xml');
-
-// hide cache-table in backend
-$GLOBALS['TCA']['tx_jhbasketballbundimport2_domain_model_cache']['ctrl']['hideTable'] = 1;

@@ -11,4 +11,4 @@
 Known Problems
 ==============
 
-If you got a bug or have any problems please use the forge-project: https://forge.typo3.org/projects/extension-jh_basketballbund_import2
+If you got a bug or have any problems please create a new GitHub issue: https://github.com/jonathanheilmann/ext-jh_basketballbund_import2/issues

@@ -157,22 +157,6 @@
 			<source>Stress team:</source>
 			<target>Team hervorheben:</target>
 		</trans-unit>
-		<trans-unit id="slayout.nobr" approved="yes" xml:space="preserve">
-			<source>Allow linebreak in table-rows</source>
-			<target>Zeilenumbruch in Tabellen-Zeile erlauben</target>
-		</trans-unit>
-		<trans-unit id="slayout.nobr.bytyposcript" approved="yes" xml:space="preserve">
-			<source>Defined by TypoScript</source>
-			<target>Definiert durch TypoScript</target>
-		</trans-unit>
-		<trans-unit id="slayout.nobr.no" approved="yes" xml:space="preserve">
-			<source>No</source>
-			<target>Nein</target>
-		</trans-unit>
-		<trans-unit id="slayout.nobr.yes" approved="yes" xml:space="preserve">
-			<source>Yes</source>
-			<target>Ja</target>
-		</trans-unit>
 		<trans-unit id="slayout.title" approved="yes" xml:space="preserve">
 			<source>Layout</source>
 			<target>Layout</target>
